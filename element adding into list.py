@@ -17,3 +17,9 @@ print("after appending using extend : ",list1)
 list1.sort()
 print("after sorting:",list1)
 
+#adding element using insert 
+
+list1.insert(1,8)
+
+print("after adding element using insert:",list1)
+
