@@ -14,3 +14,5 @@ print("elements are :",my_tuple)
 #nested tuple
 my_tuple=("abc",[2,4,6],(1,2,3))
 print("elements are :",my_tuple)
+my_tuple += 4
+print(my_tuple) # will show TypeError: can only concatenate tuple (not "int") to tuple
