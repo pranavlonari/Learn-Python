@@ -78,3 +78,25 @@ print("copied list after slicing:",nw)
 nw.clear()
 
 print("nw:",nw)
+
+#iterating through list
+for list_1 in list_1:
+    print(" \t",list_1)
+
+
+#finding element exist or not
+print('d' in list_1)
+
+
+#finding length of a list
+
+print("length of list1 :",len(list1))
+
+
+#list comprehension
+
+numbers=[n**3 for n in range(1,6)]
+print(numbers)
+
+
+
