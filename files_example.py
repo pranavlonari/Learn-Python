@@ -21,5 +21,5 @@ with open("test.txt","w") as file2:
    #// os.rename('test','new')
     print(os.listdir())
     #os.remove("test.txt")
-    os.rmdir('new')
+    os.rmdir('python')
     print(os.listdir())
