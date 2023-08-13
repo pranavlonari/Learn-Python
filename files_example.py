@@ -20,6 +20,6 @@ with open("test.txt","w") as file2:
     #renaming directory
    #// os.rename('test','new')
     print(os.listdir())
-    #os.remove("test.txt")
-    os.rmdir('python')
+    os.remove('test.txt')
+    # os.rmdir('python')
     print(os.listdir())
