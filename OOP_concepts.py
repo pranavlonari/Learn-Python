@@ -117,3 +117,40 @@ study_room.length= 7.7
 study_room.breadth= 22.2
 
 study_room.area()
+
+#Multiple Inheritance:
+
+class car:
+    def car_info(self):
+        print("Car=BMW")
+
+
+class Bus:
+    def Bus_info(self):
+        print("Bus is Started")
+
+class Vehicle(car,Bus):
+    pass
+
+veh1= Vehicle()
+
+veh1.car_info()
+veh1.Bus_info()
+
+
+#Multilevel inheritance
+
+class superclass:
+    print("superclass method called")
+
+class derivedclass1(superclass):
+    def derived_method(self):
+        print("derived class 1 called")
+class derivedclass2(derivedclass1):
+    def derived_method2(self):
+        print("derived class 2 called")
+
+d2= derivedclass2()
+d2.derived_method()
+d2.derived_method2()
+
